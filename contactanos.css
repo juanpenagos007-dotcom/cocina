@@ -1,0 +1,187 @@
+
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  background-image: url(/img/fondo\ de\ madera.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+}
+
+
+
+/* Botón estilo */
+.btn-recetas {
+  background-color: #ffcc80;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-recetas:hover {
+  background-color: #ffb74d;
+  color: #fff;
+}
+header {
+  background: #D4A017; 
+  color: #fff;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagen {
+  border-radius: 50px;
+  margin-left: 300px;
+  height: 120px;
+  position: relative;
+  top:-1px ;
+  right: 220px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+nav ul li:hover {
+  background:  #45a049;
+  border-radius: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+h1{
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  background-color: #ffe0b2;
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 150px;
+}
+section{
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+button:hover {
+  background: #45a049;
+}
+
+  input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  font-size: 1em;
+  
+}
+
+  label{
+    margin: 10px 0 5px;
+    font-weight: bold;
+   
+  }
+
+  /* ===== Footer ===== */
+footer {
+  background-color: #fff8f0;
+  border-top: 2px solid #ffe0b2;
+  margin-top: 50px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+  text-align: left;
+  gap: 30px;
+}
+
+.footer-logo h3 {
+  color: #d2691e;
+  margin: 10px 0 5px 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #ff7043;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ff7043;
+}
+
+.footer-bottom {
+  background-color: #ffe0b2;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.85rem;
+}
+
+  

@@ -1,0 +1,174 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-image: url("/img/fondo-buen-restaurante.jpg");
+  background-size: cover;       
+  background-position: center; 
+  background-attachment: fixed;
+  color: #333;
+}
+
+header, .featured, section, footer {
+  background-color: rgba(255, 255, 255, 0.88); 
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+header {
+  background: rgba(199, 44, 44, 0.9); 
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+nav ul li:hover {
+  background: rgba(245, 179, 48, 0.9);
+  border-radius: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.featured {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.featured h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #8b2e2e;
+}
+
+.featured p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #444;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.art-image img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.art-cont {
+  max-width: 600px;
+}
+
+.art-cont h2 {
+  font-size: 1.8rem;
+  color: #8b2e2e;
+  margin-bottom: 10px;
+}
+
+.art-cont p {
+  font-size: 1rem;
+  color: #333;
+  text-align: justify;
+   background-color: #ffe0b2;
+}
+
+section article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #fff8f0;
+  border-top: 2px solid #ffe0b2;
+  margin-top: 50px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+  text-align: left;
+  gap: 30px;
+}
+
+.footer-logo h3 {
+  color: #d2691e;
+  margin: 10px 0 5px 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #ff7043;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ff7043;
+}
+
+.footer-bottom {
+  background-color: #ffe0b2;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.85rem;
+}

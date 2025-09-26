@@ -1,0 +1,202 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+header {
+  background: #D4A017; 
+  color: #fff;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+ .imagen {
+  border-radius: 50px;
+  margin-left: 300px;
+  height: 120px;
+  position: relative;
+  top:-1px ;
+  right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  color: #fff;
+  margin-left: 400px;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  transition: background 0.3s;
+
+}
+
+nav ul li:hover {
+  background: rgba(122, 174, 7, 0.9);
+  border-radius: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* Hero principal */
+.hero {
+  background: url("/img/fondo\ de\ madera.jpg") no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+  color: #ffffff;
+ 
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  border-radius: 60px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: rgba(122, 174, 7, 0.9);
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color:  rgba(122, 174, 7, 0.9);
+}
+
+/* Sección destacados */
+.destacados {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.destacados h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+summary {
+  color: limegreen; /* Verde limón */
+  cursor: pointer; /* Cambia el cursor a mano */
+  font-weight: bold; /* Lo pone en negrita (opcional) */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #d2691e;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #fff8f0;
+  border-top: 2px solid #ffe0b2;
+  margin-top: 50px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+  text-align: left;
+  gap: 30px;
+}
+
+.footer-logo h3 {
+  color: #d2691e;
+  margin: 10px 0 5px 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #ff7043;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ff7043;
+}
+
+.footer-bottom {
+  background-color: #ffe0b2;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.85rem;
+}
+
